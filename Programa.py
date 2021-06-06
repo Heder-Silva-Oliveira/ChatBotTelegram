@@ -6,7 +6,7 @@ import os
 
 class TelegramBot:
     def __init__(self):
-        iTOKEN  = 'INFORMAR AQUI O SEU TOKEN'
+        iTOKEN  = '1835081325:AAHi3XKV_N_GHb_AB7hLTq8njtYar2IEWqA'
         self.iURL = f'https://api.telegram.org/bot{iTOKEN}/'
 
     def Iniciar(self):
