@@ -33,7 +33,7 @@ class TelegramBot:
     def gerar_respostas(self, mensagem, primeira_mensagem):
         print('mensagem do cliente: ' + str(mensagem))
         if primeira_mensagem == True or mensagem.lower() in ('falame', 'fala'):
-            return f'''Olá seja bem vindo(a) a FalaMe, temos alguns tipos de frases para você, qual você escolhe?{os.linesep}1 - Frases de Dúvida{os.linesep}2 - Frases para Refletir{os.linesep}3 - Frases sobre a Vida{os.linesep}4 - Frases Poema'''
+            return f'''Olá seja bem vindo(a) a FalaMe, temos alguns tipos de frases para você, qual você escolhe?{os.linesep}1 - Frases de Dúvida{os.linesep}2 - Frases para Refletir{os.linesep}3 - Frases sobre a Vida'''
         elif mensagem == '1':
             mandar = randint(1, 3)
             if mandar == 1:
