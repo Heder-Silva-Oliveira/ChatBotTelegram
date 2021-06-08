@@ -58,6 +58,8 @@ class TelegramBot:
                 return f'''Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.{os.linesep}Oscar Wilde'''
             if mandar == 3:
                 return f'''A única alegria no mundo é começar. É bom viver porque viver é começar sempre, a cada instante.{os.linesep}Cesare Pavese'''
+        else:
+            return f'''Não entendi'''
 
 
     def responder(self, resposta, chat_id):
