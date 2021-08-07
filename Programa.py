@@ -59,7 +59,7 @@ class TelegramBot:
             if mandar == 3:
                 return f'''A única alegria no mundo é começar. É bom viver porque viver é começar sempre, a cada instante.{os.linesep}Cesare Pavese'''
         else:
-            return f'''Não entendi'''
+            return f'''É possivel que haja um equivoco.'''
 
 
     def responder(self, resposta, chat_id):
