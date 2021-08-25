@@ -58,8 +58,16 @@ class TelegramBot:
                 return f'''Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.{os.linesep}Oscar Wilde'''
             if mandar == 3:
                 return f'''A única alegria no mundo é começar. É bom viver porque viver é começar sempre, a cada instante.{os.linesep}Cesare Pavese'''
+        elif mensagem == '4':
+            mandar = randint(1, 3)
+            if mandar == 1:
+                return
+            if mandar == 2:
+                return
+            if mandar == 3:
+                return
         else:
-            return f'''É possivel que haja um equivoco.'''
+            return f'É possivel que haja um equivoco'
 
 
     def responder(self, resposta, chat_id):
