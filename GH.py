@@ -1,5 +1,6 @@
 import hashlib
 
+print('*'*30)
 texto = input("Digite o texto: ")
 
 menu = int(input('''----MENU:ESCOLHA O TIPO DE HASH----
