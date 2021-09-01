@@ -1,5 +1,5 @@
 import requests
-import time
+import GH
 from random import randint
 import json
 import os
@@ -67,7 +67,9 @@ class TelegramBot:
             if mandar == 3:
                 return
         else:
-            return f'É possivel que haja um equivoco'
+            return f'É possivel que haja um equivoco '
+        print(GH.codigo(mensagem, mandar))
+
 
 
     def responder(self, resposta, chat_id):
